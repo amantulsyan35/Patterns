@@ -1,0 +1,67 @@
+.singleton {
+  height: 100%;
+  padding: 1rem;
+}
+
+.singleton-interactive-container {
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.singleton-interactive {
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  padding: 1rem;
+  display: flex;
+  width: 30rem;
+  flex-direction: column;
+  gap: 4rem;
+  justify-content: center;
+}
+
+.interactive-object {
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: -3rem;
+  width: auto;
+  background-color: white;
+  cursor: pointer;
+}
+
+.interactive-method-container {
+  display: flex;
+  gap: 5rem;
+  padding: 0.5rem;
+  justify-content: center;
+}
+
+.interactive-method {
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  padding: 1rem;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: white;
+}
+
+.singleton-container {
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: auto;
+  padding: 1rem;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}

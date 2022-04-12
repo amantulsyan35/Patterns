@@ -1,0 +1,52 @@
+.landing-container {
+  height: 100%;
+  padding: 1rem;
+}
+
+.landing-container h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0, 0.6);
+  letter-spacing: 0.3rem;
+}
+
+.patterns-container {
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: auto;
+  padding: 1rem;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.pattern-card {
+  height: auto;
+  width: 25rem;
+  padding: 1rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.pattern-card:hover {
+  border: 1px solid rgb(0, 0, 0, 0.1);
+}
+
+.pattern-card h4 {
+  color: rgb(0, 0, 0, 0.8);
+  letter-spacing: 0.1rem;
+}
+
+.pattern-card-img img {
+  width: 100%;
+  height: 100%;
+}

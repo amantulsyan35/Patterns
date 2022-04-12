@@ -1,0 +1,20 @@
+.sandpack-container {
+  padding: 1rem;
+  border: 1px solid rgb(0, 0, 0, 0.3);
+  width: 100%;
+}
+
+.custom-wrapper {
+  width: 100%;
+}
+
+.custom-layout {
+  border: 1px solid rgb(0, 0, 0, 0.3);
+  border-radius: 0;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.custom-tab {
+  color: white;
+}
